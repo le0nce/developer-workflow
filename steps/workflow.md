@@ -7,7 +7,7 @@ flowchart TD
     C --> D["4. Developer Testing"]
     D --> E{"Quality Gates"}
 
-    E --> F["5. Run Unit Tests /\nIntegration Testing\n(Coverage)"]
+    E --> F["5. Run Unit Tests  Integration Testing\n(Coverage)"]
     E --> G["6. Run Quality Steps\n(Lint, Formatting)"]
 
     F --> H["7. Run Pre-Commit\nSteps (Git Hook)"]

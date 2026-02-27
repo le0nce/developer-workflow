@@ -1,0 +1,37 @@
+ID,Phase,Requirement Description,Applies To,Owner,Verification Method,Artifacts/Evidence
+REQ-01,Planning,Functional requirements are documented and approved,Dev & QA,Product Owner,Review & sign-off,Requirements document
+REQ-02,Planning,Non-functional requirements defined (performance, security, scalability),Dev & QA,Architect,Design review,NFR specification
+REQ-03,Planning,Acceptance criteria defined for each user story,Dev & QA,Product Owner,Story review,User stories
+REQ-04,Planning,Risks and dependencies identified,Dev & QA,Project Manager,Risk review,Risk register
+
+REQ-05,Development,Coding standards defined and shared,Dev,Tech Lead,Documentation review,Coding guidelines
+REQ-06,Development,Static code analysis (linting) is mandatory,Dev,Developer,CI pipeline result,Lint report
+REQ-07,Development,Code follows secure coding practices,Dev,Developer,Security review,Secure coding checklist
+REQ-08,Development,Unit tests written for new and changed code,Dev,Developer,Test execution,Unit test report
+REQ-09,Development,Minimum unit test coverage threshold enforced,Dev,Tech Lead,CI coverage check,Coverage report
+
+REQ-10,Build,Automated build pipeline configured,Dev,DevOps,Pipeline execution,CI build logs
+REQ-11,Build,Build fails on linting or unit test errors,Dev,DevOps,Pipeline policy,CI rules
+REQ-12,Build,Build artifacts are versioned,Dev,DevOps,Artifact inspection,Artifact repository
+REQ-13,Build,Dependencies are managed and locked,Dev,Developer,Dependency scan,Dependency manifest
+
+REQ-14,Testing,Test strategy documented,QA,QA Lead,Review & approval,Test strategy document
+REQ-15,Testing,Test cases derived from requirements and acceptance criteria,QA,Tester,Traceability check,Test cases
+REQ-16,Testing,Integration tests executed,QA,Tester,Test execution report,Integration test report
+REQ-17,Testing,System testing completed before release,QA,QA Lead,Test sign-off,System test report
+REQ-18,Testing,Regression tests executed for every release,QA,Tester,Test execution report,Regression test report
+REQ-19,Testing,Defects logged, tracked, and prioritized,QA,QA Lead,Tool review,Defect tracker
+
+REQ-20,Merge Request,Merge request template is used,Dev,Developer,MR review,Merge request record
+REQ-21,Merge Request,Code review by at least one other developer,Dev,Reviewer,Review approval,MR approval
+REQ-22,Merge Request,QA approval required before merge (if applicable),Dev & QA,QA Lead,Approval check,MR approval
+REQ-23,Merge Request,All CI checks must pass before merge,Dev,DevOps,CI status,Pipeline logs
+
+REQ-24,Release,Release notes prepared,Dev & QA,Release Manager,Documentation review,Release notes
+REQ-25,Release,Deployment process documented,Dev & Ops,DevOps,Process review,Deployment guide
+REQ-26,Release,Rollback strategy defined and tested,Dev & Ops,DevOps,Test evidence,Rollback procedure
+REQ-27,Release,Production deployment approved,Dev & QA,Release Manager,Approval record,Release approval
+
+REQ-28,Post-Release,Post-release monitoring enabled,Dev & Ops,DevOps,Monitoring dashboards,Monitoring logs
+REQ-29,Post-Release,Incidents are logged and analyzed,Dev & QA,Support Lead,Incident review,Incident reports
+REQ-30,Post-Release,Retrospective conducted and actions tracked,Dev & QA,Project Manager,Meeting notes,Retrospective report

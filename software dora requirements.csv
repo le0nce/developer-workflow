@@ -1,0 +1,43 @@
+Category,Phase,Requirement ID,Requirement Description,Responsible Role,Evidence / Artifact,Automation (Yes/No),Why it is important according to DORA
+Governance,Project Setup,GOV-01,Define SDLC and branching strategy (GitFlow or Trunk-based),Tech Lead,SDLC document,No,"DORA requires a formal ICT risk management framework. A defined SDLC and branching strategy ensures controlled changes and reduces the risk of unplanned ICT disruptions."
+Governance,Project Setup,GOV-02,Define coding standards and secure coding guidelines,Tech Lead,Coding standards document,No,"DORA emphasises prevention of ICT risks. Secure coding standards reduce vulnerabilities and improve operational stability."
+Governance,Project Setup,GOV-03,Define roles and responsibilities for Dev, QA, Review and Release,Project Manager,RACI matrix,No,"DORA requires clear governance and accountability for ICT risk management, including defined responsibilities."
+Governance,Project Setup,GOV-04,Restrict and manage access to repositories and CI/CD pipelines,DevOps,Access control policy,No,"DORA mandates protection of ICT systems from unauthorised access and misuse."
+
+Development,Coding,DEV-01,All code must comply with coding standards,Developer,Lint reports,Yes,"Ensures consistent, maintainable and secure code, reducing operational and security risks as required by DORA."
+Development,Coding,DEV-02,Static code analysis executed on every commit,Developer,Static analysis reports,Yes,"DORA requires early detection of ICT vulnerabilities and weaknesses."
+Development,Coding,DEV-03,Secrets and credentials must not be stored in source code,Developer,Secret scanning report,Yes,"Prevents data breaches and unauthorised access, supporting DORA ICT security objectives."
+Development,Coding,DEV-04,Unit tests written for all new or changed code,Developer,Unit test results,Yes,"DORA requires ICT systems to be reliable and resilient; unit testing reduces defect introduction."
+Development,Coding,DEV-05,Minimum unit test coverage enforced,Developer,Coverage reports,Yes,"Ensures sufficient testing depth to reduce risk of functional failures in production systems."
+
+Build & CI,CI Pipeline,CI-01,Automated builds triggered for every merge request,DevOps,CI pipeline logs,Yes,"DORA expects controlled and repeatable ICT processes, including automated change validation."
+Build & CI,CI Pipeline,CI-02,Build fails on linting or compilation errors,DevOps,CI logs,Yes,"Prevents unstable or non-compliant code from reaching production, reducing ICT operational risk."
+Build & CI,CI Pipeline,CI-03,Dependency and vulnerability scanning performed,DevOps,Dependency scan report,Yes,"DORA requires identification and mitigation of ICT risks, including third-party software components."
+Build & CI,CI Pipeline,CI-04,Build artifacts are versioned and reproducible,DevOps,Artifact repository records,Yes,"Supports traceability and recovery, which are core DORA resilience principles."
+
+Testing,Unit Testing,TEST-01,All unit tests must pass before merge approval,QA Lead,Unit test reports,Yes,"DORA requires verification of ICT systems before deployment to ensure resilience."
+Testing,Integration Testing,TEST-02,Integration tests executed in CI pipeline,QA Lead,Integration test reports,Yes,"Ensures systems work together reliably, reducing risk of production incidents."
+Testing,Functional Testing,TEST-03,Functional test cases mapped to business requirements,QA Lead,Test case management tool,No,"DORA requires ICT systems to support critical business functions reliably."
+Testing,Regression Testing,TEST-04,Regression tests executed before every release,QA Lead,Regression reports,Yes,"Prevents reintroduction of known issues, supporting operational continuity."
+Testing,Security Testing,TEST-05,SAST and DAST security testing performed,Security/QA,Security test reports,Yes,"Explicitly supports DORA requirements for ICT security and threat prevention."
+
+Merge Request,Code Review,MR-01,At least one peer review required for every merge request,Reviewer,Merge request approval record,No,"DORA requires strong change governance and oversight of ICT changes."
+Merge Request,Code Review,MR-02,Automated quality checks must pass before merge,DevOps,CI status checks,Yes,"Ensures only compliant and tested changes are introduced into ICT systems."
+Merge Request,Code Review,MR-03,Protected branches prevent direct commits,DevOps,Branch protection configuration,Yes,"Supports controlled change management as required by DORA."
+
+Release Management,Release,REL-01,Formal release approval required,Release Manager,Release approval record,No,"DORA requires governance oversight for significant ICT changes."
+Release Management,Release,REL-02,Release notes generated and retained,Release Manager,Release notes,Yes,"Ensures traceability and transparency of ICT changes for audit and incident analysis."
+Release Management,Release,REL-03,Rollback strategy documented and tested,DevOps,Rollback plan,No,"DORA requires effective ICT response and recovery capabilities."
+Release Management,Release,REL-04,Artifacts promoted between environments without rebuild,DevOps,Promotion logs,Yes,"Ensures integrity and traceability of deployed software."
+
+Deployment,Production,DEP-01,Production deployments are automated,DevOps,Deployment logs,Yes,"Reduces human error and supports resilient ICT operations."
+Deployment,Production,DEP-02,Post-deployment smoke tests executed,QA,Smoke test reports,Yes,"Ensures early detection of production issues affecting critical services."
+Deployment,Production,DEP-03,Monitoring and alerting enabled in production,DevOps,Monitoring dashboards,Yes,"DORA requires continuous monitoring to detect ICT-related incidents."
+
+Operations & Monitoring,Post-Release,OPS-01,Centralised logging implemented,DevOps,Log management system,Yes,"Supports incident detection, investigation and forensic analysis under DORA."
+Operations & Monitoring,Post-Release,OPS-02,ICT incidents are logged and tracked,Support/DevOps,Incident tickets,No,"DORA mandates incident management and reporting processes."
+Operations & Monitoring,Post-Release,OPS-03,Root cause analysis performed for major incidents,Dev and QA,RCA documents,No,"Supports DORA requirements for learning and continuous improvement."
+
+Audit & Compliance,Audit,AUD-01,All CI/CD actions are auditable,DevOps,Audit logs,Yes,"DORA explicitly requires auditability and supervisory access to ICT activity records."
+Audit & Compliance,Audit,AUD-02,End-to-end traceability from requirement to deployment,Project Manager,Traceability matrix,No,"Ensures transparency and accountability of ICT changes."
+Audit & Compliance,Audit,AUD-03,Test evidence retained according to policy,QA Lead,Test archives,No,"DORA requires retention of evidence to support audits and investigations."

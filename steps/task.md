@@ -32,8 +32,9 @@ Create a compliant development branch in the target platform based on an approve
 - Automated quality checks applied:
   - Build fails on lint/test errors *(REQ-11)*
   - All CI checks must pass before merge *(REQ-23)*
+- Protected branches prevent direct commits *(MR-03)*
 
 ---
 
 ### Requirements Traceability
-REQ-01, REQ-03, REQ-04, REQ-05, REQ-11, REQ-23
+REQ-01, REQ-03, REQ-04, REQ-05, REQ-11, REQ-23, MR-03

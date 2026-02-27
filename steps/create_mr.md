@@ -18,6 +18,7 @@ Create a merge request (MR) for the completed task, ensuring the MR follows the 
 - MR linked to originating ticket
 - MR title compliant with naming conventions
 - MR description follows template *(REQ-20)*
+- Traceability link from requirement to MR *(AUD-02)*
 
 ---
 
@@ -26,8 +27,9 @@ Create a merge request (MR) for the completed task, ensuring the MR follows the 
 - MR title enforced by automated checks
 - Agent.md rules applied to MR content
 - Test cases traceable to requirements *(REQ-15)*
+- End-to-end traceability from requirement to MR maintained *(AUD-02)*
 
 ---
 
 ### Requirements Traceability
-REQ-15, REQ-20
+REQ-15, REQ-20, AUD-02

@@ -30,8 +30,10 @@ Merge the approved merge request into the target branch after all checks, review
 - No unresolved conflicts or comments
 - No self-approval permitted
 - Defects logged and tracked if issues found *(REQ-19)*
+- Protected branches prevent direct commits *(MR-03)*
+- Automated quality checks must pass before merge *(MR-02)*
 
 ---
 
 ### Requirements Traceability
-REQ-19, REQ-21, REQ-22, REQ-23
+REQ-19, REQ-21, REQ-22, REQ-23, MR-02, MR-03

@@ -21,6 +21,9 @@ Implement the approved task by writing production code and corresponding tests i
 - Production code for the task is created
 - Tests written (following naming and reference conventions for tests) *(REQ-08)*
 - Code follows secure coding practices *(REQ-07)*
+- Code complies with coding standards *(DEV-01)*
+- No secrets or credentials stored in source code *(DEV-03)*
+- Unit tests written for all new or changed code *(DEV-04)*
 
 ---
 
@@ -29,10 +32,13 @@ Implement the approved task by writing production code and corresponding tests i
 - Static code analysis (linting) is mandatory *(REQ-06)*
 - Code follows secure coding practices *(REQ-07)*
 - Unit tests written for new and changed code *(REQ-08)*
+- All code must comply with coding standards *(DEV-01)*
+- Secrets and credentials must not be stored in source code *(DEV-03)*
+- Unit tests written for all new or changed code *(DEV-04)*
 - **IF AI is used by Developer:**
   - Code must be reviewed and validated by the developer
 
 ---
 
 ### Requirements Traceability
-REQ-01, REQ-03, REQ-04, REQ-05, REQ-06, REQ-07, REQ-08
+REQ-01, REQ-03, REQ-04, REQ-05, REQ-06, REQ-07, REQ-08, DEV-01, DEV-03, DEV-04

@@ -1,0 +1,49 @@
+ID,Category,Requirement Description,Applies To,Owner,Verification Method,Artifacts/Evidence,Legal / Regulatory Justification (Exact Quote – EU AI Act)
+BUS-01,Business Alignment,Project objectives are clearly defined and approved,Business & PM,Sponsor,Approval review,Project charter,"AI systems should serve as a tool for people, with the ultimate aim of increasing human well-being."
+BUS-02,Business Alignment,Project aligns with organizational strategy,Business,Sponsor,Portfolio review,Strategy mapping,"This Regulation should be applied in accordance with the values of the Union enshrined as in the Charter."
+BUS-03,Business Alignment,Expected business benefits are documented,Business,Product Owner,Benefit review,Business case,"To obtain the greatest benefits from AI systems while protecting fundamental rights, health and safety."
+BUS-04,Business Alignment,Success metrics (KPIs) are defined,Business & PM,Product Owner,KPI review,KPI definition,"This Regulation aims to foster the development, use and uptake of AI in the internal market."
+
+CRT-01,Criticality,Project criticality level is defined (low/medium/high/mission-critical),Business & PM,Sponsor,Risk assessment,Criticality classification,"A clearly defined risk-based approach should be followed."
+CRT-02,Criticality,Impact of failure is assessed (financial, legal, reputational),Business,Risk Manager,Impact analysis,Impact assessment,"AI may generate risks and cause harm to public interests and fundamental rights."
+CRT-03,Criticality,Service availability expectations are defined,Business,Service Owner,SLA review,SLA document,"A high level of protection of health and safety and fundamental rights should be ensured."
+CRT-04,Criticality,Regulatory or compliance impact is identified,Business,Compliance Officer,Compliance review,Regulatory assessment,"Harmonised rules applicable to the placing on the market, the putting into service and the use of AI systems should be laid down."
+CRT-05,Criticality,Data sensitivity classification is performed,Business,Data Owner,Data review,Data classification record,"AI systems are developed and used in accordance with privacy and data protection rules."
+
+PM-01,Project Governance,Project sponsor is formally assigned,PMO,PMO Lead,Role confirmation,Governance record,"Obligations placed on various operators involved in the AI value chain under this Regulation should apply."
+PM-02,Project Governance,Project manager is assigned with clear authority,PMO,PMO Lead,Role confirmation,Project org chart,"Uniform obligations for operators and deployers should be ensured."
+PM-03,Project Governance,Governance structure is defined (steering committee, escalation path),PMO,Sponsor,Governance review,Governance model,"This Regulation should ensure effective implementation and enforcement."
+PM-04,Project Governance,Decision-making authority is documented,PMO,Sponsor,Review,Decision matrix,"A consistent and high level of protection throughout the Union should be ensured."
+
+PM-05,Scope Management,Project scope is clearly defined and approved,PM,Project Manager,Scope review,Scope statement,"The intended purpose of the AI system should be clearly defined."
+PM-06,Scope Management,Out-of-scope items are explicitly documented,PM,Project Manager,Scope review,Scope exclusions,"The objectives of the AI system may be different from the intended purpose in a specific context."
+PM-07,Scope Management,Change management process is defined,PM,Project Manager,Process review,Change management plan,"AI systems may change while in use and should remain compliant."
+PM-08,Scope Management,Scope changes require formal approval,PM,Steering Committee,Change log review,Change requests,"Compliance should be ensured throughout the lifecycle of the AI system."
+
+PM-09,Planning,Project plan and milestones are approved,PM,Project Manager,Plan review,Project plan,"Providers and deployers should ensure compliance before placing on the market or putting into service."
+PM-10,Planning,Timeline is realistic and agreed by stakeholders,PM,Sponsor,Stakeholder sign-off,Approved schedule,"Measures should be proportionate and effective."
+PM-11,Planning,Resource needs are identified and approved,PM,Project Manager,Resource review,Resource plan,"Appropriate measures should be taken to ensure compliance."
+PM-12,Planning,Budget is approved and baselined,PM & Business,Sponsor,Budget approval,Budget baseline,"This Regulation should support innovation while ensuring protection of public interests."
+
+PM-13,Risk Management,Project risks are identified and documented,PM,Project Manager,Risk review,Risk register,"High-risk AI systems should only be placed on the market if they comply with certain mandatory requirements."
+PM-14,Risk Management,Risk owners are assigned,PM,Project Manager,Ownership review,Risk register,"Obligations for operators involved in the AI value chain should apply."
+PM-15,Risk Management,Mitigation plans exist for high risks,PM,Risk Owner,Plan review,Mitigation plans,"Risks and harm to fundamental rights should be prevented or minimised."
+PM-16,Risk Management,Risks are reviewed regularly,PM,Project Manager,Meeting minutes,Risk review log,"Compliance should be ensured on a continuous basis."
+
+PM-17,Stakeholder Management,Stakeholders are identified and mapped,PM,Project Manager,Stakeholder review,Stakeholder register,"Affected persons should be protected from harmful effects of AI systems."
+PM-18,Stakeholder Management,Communication plan is defined,PM,Project Manager,Plan review,Communication plan,"Transparency obligations should apply to certain AI systems."
+PM-19,Stakeholder Management,Regular status reporting is performed,PM,Project Manager,Report review,Status reports,"Effective enforcement and oversight should be ensured."
+PM-20,Stakeholder Management,Escalation process is defined and known,PM,Sponsor,Process review,Escalation procedure,"Appropriate governance mechanisms should be in place."
+
+PM-21,Quality Management,Quality objectives are defined,PM,Project Manager,Review,Quality plan,"AI systems should be technically robust and safe."
+PM-22,Quality Management,Acceptance and sign-off criteria are defined,Business & PM,Product Owner,Criteria review,Acceptance criteria,"AI systems should allow appropriate human oversight."
+PM-23,Quality Management,Formal acceptance is required at key milestones,Business,Sponsor,Sign-off review,Acceptance records,"Human oversight should be ensured throughout use."
+
+PM-24,Financial Control,Costs are tracked against budget,PM,Project Manager,Financial review,Cost reports,"Measures should be proportionate to the risks involved."
+PM-25,Financial Control,Forecasts are updated regularly,PM,Project Manager,Forecast review,Forecast reports,"Appropriate follow-up actions should be taken."
+PM-26,Financial Control,Financial deviations are escalated,PM,Sponsor,Escalation review,Issue log,"Effective governance and accountability should be ensured."
+
+PM-27,Delivery & Closure,Go-live readiness criteria are defined,Business & PM,Sponsor,Readiness review,Go-live checklist,"AI systems should not pose unacceptable risks to health, safety or fundamental rights."
+PM-28,Delivery & Closure,Operational ownership is formally handed over,Business,Service Owner,Handover review,Handover document,"Deployers should ensure compliant use of AI systems."
+PM-29,Delivery & Closure,Project closure is formally approved,PM,Sponsor,Closure review,Closure report,"Compliance obligations apply throughout the lifecycle."
+PM-30,Delivery & Closure,Lessons learned are documented and shared,PM,Project Manager,Retrospective review,Lessons learned,"This Regulation supports continuous improvement and trustworthy AI."
